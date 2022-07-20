@@ -1,0 +1,24 @@
+package com.ivy;
+
+import java.util.stream.Stream;
+
+public class StreamObject {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Stream API - collection process
+		//Collection/group of object
+		
+		//1- blank
+		Stream<Object> emptyStream = Stream.empty();
+		
+		String names[] = {"Rushikesh" ,"Yash" ,"Roopam","Ashwin","Sahil"};
+		
+		Stream<String> stream1 = Stream.of(names);
+		stream1.forEach(e->{
+			System.out.println(e);
+		});
+
+	}
+
+}

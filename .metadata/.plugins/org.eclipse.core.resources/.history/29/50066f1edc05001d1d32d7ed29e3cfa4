@@ -1,0 +1,22 @@
+package com.ivy;
+
+import java.util.*;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<Integer> list = new ArrayList<Integer>();
+		list.add(12);
+		list.add(21);
+		list.add(43);
+		list.add(36);
+		list.add(67);
+		list.add(24);
+		list.add(54);
+		list.add(37);
+
+	}
+
+}
